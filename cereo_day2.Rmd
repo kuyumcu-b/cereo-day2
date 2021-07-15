@@ -1,8 +1,71 @@
 ---
 title: "cereo_day2"
-author: "Burak Kuyumcu"
+author: 
+  - "Burak Kuyumcu"
+  - "Collaborator"
 date: "15 07 2021"
+abstract : |
+  This is our abstract.
+  
+  It consists of two paragraphs.
+  
 output: html_document
 ---
+
+# Header 1
+Biggest
+
+## Header 2
+Big
+
+### Header 3
+Pretty big
+
+#### Header 4
+Bold face header
+
+<!-- Horizontal rules -->
+
+****
+
+____
+
+----
+
+# Intro to Rmd Formatting
+
+Here is an example of **bold** text, __bold__
+Here is an example of *italic* text, _italic_
+Here is an example of ***bold italic*** text, ___italic___
+What abour superscripts? x^2^ For subscripts x~0~
+<u>underline</u>
+~~underline~~ = ***no***!
+
+<!-- Line breaks -->
+
+With two spaces at the and Line 1  
+Line 2
+
+With html code Line 1 <br>
+Line2
+
+\* `<br>` starts a new line, it does not start a new paragraph
+
+<!-- Paragraph -->
+
+Topic 1. It's such a fascinating paragraph.
+
+Topic 2. Some more great stuff.
+
+Topic 3. Blah blah blah..
+
+<!-- Footnotes -->
+
+Here is a sentence with a footnote[^1]. This sentence follows the footnote[^2].
+
+<!-- Footnote section -->
+
+[^1]: Here is our first footnote. 
+[^2]: Second footnote.
 
 
